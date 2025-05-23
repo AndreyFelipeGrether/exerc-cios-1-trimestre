@@ -1,0 +1,125 @@
+# 1-Peça ao usuário para digitar 5 números e mostre a soma deles ao final.
+
+
+#num1 = float(input("Digite o Primero número: "))
+#num2 = float(input("Digite o Segundo número: "))
+#num3 = float(input("Digite o Terceiro número: "))
+#num4 = float(input("Digite o Quarto número: "))
+#num5 = float(input("Digite o Quinto número: "))
+
+
+#Soma = (num1 + num2 + num3 + num4 + num5)
+
+
+#print(f"O Resultado da Soma é: {Soma}")
+
+
+# 2-Peça ao usuário para digitar 4 números e mostre qual é o maior e qual é o menor.
+
+
+# 3-Peça ao usuário uma palavra e mostre as vogais que ela tem.
+
+
+#palavra= input("Digite uma Palavra: ")
+
+
+#contador = 0
+
+
+#vogais = ['a', 'e', 'i', 'o', 'u']
+
+
+#for letra in palavra:
+    #for vogal in vogais:
+       # if(letra == vogal):
+            #contador += 1
+#print(f'A quantidade de vogais na {palavra} é de {contador}')
+
+
+# 4- Peça ao usuário para digitar 6 números e mostre apenas os números pares.
+
+
+#num1 = float(input("Digite o Primero número: "))
+#num2 = float(input("Digite o Segundo número: "))
+#num3 = float(input("Digite o Terceiro número: "))
+#num4 = float(input("Digite o Quarto número: "))
+#num5 = float(input("Digite o Quinto número: "))
+#num6 = float(input("Digite o Sexto número: "))
+
+
+#listaDePares = []
+
+
+#listaDeNumeros = [numero1, numero2, numero3, numero4, numero5, numero6]
+
+
+#for numero in listaDenumeros:
+    #if numero % 2 == 0:
+        #listaDePares.append(numero)
+
+
+#if len(listaDePares) != 0:
+    #print(f'Os números pares digitados foram: {listaDePares}')
+#else:
+    #print('A lista não possui números pares')
+
+
+# 5-Solicite notas de 4 provas e mostre a média.
+
+
+#nota1 = float(input("Digite a primeira nota: "))
+#nota2 = float(input("Digite a segunda nota: "))
+#nota3 = float(input("Digite a terceira nota: "))
+#nota4 = float(input("Digite a quarta nota: "))
+
+
+#media = (nota1 + nota2 + nota3 + nota4) / 4
+
+
+#print(f"Média: {media:.1f}")
+
+
+# 6-Peça ao usuário um número e mostre a tabuada desse número de 1 a 10.
+
+
+#numeroDigitado = int(input('Digite um número para visualizar a tabuada desse número de 1 até 10: '))
+
+
+#for numero in range(1,11):
+    #print(f'{numeroDigitado} x {numero} = {numeroDigitado * numero}')
+
+# 7-Peça um número N ao usuário e mostre todos os números de 1 até N
+
+#numeroDigitado = int(input("Digite um número para ver todos os antecessores do número 1 até o número digitado : "))
+
+#for numero in range(1,numeroDigitado + 1):
+  #print(f'{numero}')
+
+  # 8-Peça ao usuário uma palavra e mostre ela ao contrário.
+
+#palavraDigitada= input("Digite uma Palavra para que a mesma seja mostrada ao contrátio: ")
+
+#palavraReversa + palavraDigitada [:: -1]
+
+#print(f'O contrário da palavra {palavraDigitada} é: {palavraReverse}')
+
+# 9- Peça um número ao usuário um número e mostre se ele é mulstiplo de 3.
+
+#numeroDigitado = int(input('Digite um número para saber se é multiplo de 3: '))
+#if numeroDigitado %3== 0:
+    #print(f'o numero {numeroDigitado} é multiplo de 3')
+#else:
+    #print (f'O numero {numeroDigitado} não é multiplo de 3')
+
+# 10- Peça ao usuário para digitar 3 nomes e mostre todos eles em ordem alfabética.
+
+#nome1 = input("Digite o primeiro nome: ")
+#nome2 = input("Digite o segundo nome: ")
+#nome3 = input("Digite o terceiro nome: ")
+
+#listaDeNomes = [nome1, nome2, nome3]
+
+#listaDeNomes.sort(reverse=False)
+
+#print(f'Os nomes em ordem alfabética são: {listaDeNomes}')
+
